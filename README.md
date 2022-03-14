@@ -1,2 +1,2 @@
 # Aulas-blue-ed-tech
-todos os exercicios do blue ed 
+Repositorio para armazenar os projetos criados durante o modulo 01 da blue ed tech
