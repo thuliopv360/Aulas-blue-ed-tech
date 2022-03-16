@@ -1,7 +1,31 @@
-// Faça um programa em que o usuário escolha a quantidade de alunos a serem cadastrados 
-//e peça o nome e nota de cada um. 
-//Armazene as informações em duas listas separadas e no final imprima o nome e a nota correspondente de cada aluno, 
-//e a média total da notas.
-
 console.clear()
 const prompt = require(`prompt-sync`)();
+const numeroUsuarios = +prompt("Quantos alunos eu quero que seja cadastrado? ")
+let usuarios;
+let nota;
+let contador = 0;
+
+// 0 + 1 + 2 + 3 + 4
+
+
+const notas = [];
+const alunos = [];
+const initialValue = 0;
+let calculoMedia;
+let media;
+
+while (contador < numeroUsuarios) {
+    usuarios = prompt("Digite o nome do aluno nome: ");
+    nota = +prompt("Digite a nota do aluno: ");
+    alunos.push(usuarios);
+    notas.push(nota);
+    contador++;
+    console.log(`O aluno ${usuarios} teve ${nota} nota em matematica`);
+    calculoMedia = notas.reduce(
+        (previousValue, currentValue) => previousValue + currentValue,
+        initialValue
+    );
+    media = (calculoMedia / notas.length);
+    console.log(`a media do aluno ${usuarios} foi ${media}`);
+
+}
