@@ -28,7 +28,34 @@ const prompt = require("prompt-sync")();
 let personagem = prompt("Digite o nome do seu personagem: ");
 let tempo = {
     dia: 0,
-    horas: 0,
-    minutos: 0,
-    segundos: 0
+    hora: 0,
+    minuto: 0,
+    segundo: 0
+}
+
+function passarTempo(day, hour, min, seg) {
+    tempo.dia += day
+    tempo.hora += hour
+    tempo.minuto += min
+    tempo.segundo += seg
+        // if (tempo.hora > 20) {
+        //     tempo.dia++;
+        //     console.log(`${tempo.dia}`);
+        // }
+    while (tempo.hora > 24) {
+        tempo.dia++;
+        tempo.hora -= 24;
+        if (tempo.hora < 24) { break; }
+    }
+    while (tempo.minuto >= 60) {
+        tempo.hora++;
+        tempo.minuto -= 60;
+        if (tempo.minuto < 60) { break; }
+    }
+    while (tempo.segundo >= 60) {
+        tempo.minuto++;
+        tempo.segundo -= 60;
+        if (tempo.segundo < 60) { break; }
+    }
+
 }
