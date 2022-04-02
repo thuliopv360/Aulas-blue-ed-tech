@@ -1,44 +1,9 @@
-Você irá criar um jogo de ficção interativa que simule a rotina diária de um personagem. 
-Você pode escolher entre rotinas matinais, rotinas de trabalho, rotinas de estudos, aventuras épicas, histórias assustadoras, entre outras. 
-A ideia do jogo é que o jogador faça as escolhas para o seu personagem e o conduza pela história. 
-Cada escolha irá gerar uma consequência diferente para o seu personagem. 
-Você será responsável por determinar o inicio e término da história, além de avançar o tempo a cada escolha.
-É importante que haja uma passagem de tempo e períodos determinados que determinarão os ciclos de repetição das possibilidades do personagem, por exemplo: Manhã, tarde, noite, dormir - Recomeça o ciclo.
-É obrigatório o uso funções, laços (while/for) e condicionais (if, elif, else), ou seja todo o conteúdo visto durante o módulo.
-Use toda sua criatividade para desenvolver uma história interessante e seja bem específico com relação as escolhas que precisam ser feitas, para que seu jogo seja divertido! 
-Lembre-se que as escolhas devem impactar no que acontecerá com o personagem no decorrer da história, 
-e adicionar eventos que podem ocorrer de maneira aleatória é uma boa ideia para tornar o seu jogo mais interessante.
-
-
-Agora você já deve ter uma boa ideia de como será a sua história e como serão as escolhas do seu personagem. 
-Para hoje vamos implementar mais algumas funcionalidades:
-Variável para controle da passagem do tempo;
-Controle do fim e recomeço do ciclo;
-Variáveis de controle dos status e situações da história;
-Condicionais para alterações dessas variáveis.
-A ideia é que seu projeto comece a ganhar forma, e já seja capaz de fazer algumas perguntas que irão modificar os aspectos do jogo.
-Conforme essas escolhas vão sendo feitas o tempo deve ir passando, e após um período determinado, 
-deve-se encerrar o ciclo atual e começar um novo, com atualização do status do personagem e voltar às escolhas de ação.
-
-Seu projeto já deve estar ganhando forma e com algumas funções já incrementadas e funcionando:
-Controle de status do personagem;
-Condições que determinarão mudanças no status e variáveis de controle do jogo;
-Um controle de passagem de tempo que determina o começo e o fim de cada ciclo.
-Agora podemos começar a organizar tudo isso, e seria bom pensarmos em funções para executar cada uma das tarefas. 
-Portanto para hoje nossos objetivos serão:
-Determinar quais funções serão usadas (Determinar fim do ciclo? Resetar os status do personagem? Fazer controle da passagem de tempo?);
-Determinar quais variáveis serão usadas e alteradas por elas;
-Implementar essas funções de maneira eficiente;
-Com isso nosso projeto já deve estar bem encaminhado e com todas as funcionalidades implementadas e funcionando adequadamente. 
-Veja o que você já tem e o que será possível ainda incrementar com o tempo restante.
-
-
-
-1 Variáveis para armazenar os status do personagem. (1,0)
-2 Perguntas que alteram esses status do personagem. (1,0)
-3 Laço de repetição que determinará os ciclos onde a história vai se passar. Determinar o que acontecerá ao final do ciclo e como ficarão os status. (1,0)
-4 Variável para controle da passagem do tempo. (1,0)
 5 Variáveis de controle dos status e situações da história. (1,0)
-6 Condicionais para alterações dessas variáveis. (1,5)
-7 Funções para executar cada uma das tarefas. (1,5)
-8 Conteúdo de condicionais, laços, funções e objetos bem aplicados. (2,0)
+4 Variável para controle da passagem do tempo. (1,0)  
+
+1 Variáveis para armazenar os status do personagem. (1,0) V
+2 Perguntas que alteram esses status do personagem. (1,0) 
+3 Laço de repetição que determinará os ciclos onde a história vai se passar. Determinar o que acontecerá ao final do ciclo e como ficarão os status. (1,0) V
+6 Condicionais para alterações dessas variáveis. (1,5) V
+7 Funções para executar cada uma das tarefas. (1,5) V 
+8 Conteúdo de condicionais, laços, funções e objetos bem aplicados. (2,0) V
