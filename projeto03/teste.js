@@ -128,7 +128,9 @@ function trabalhar() {
 }
 
 function trabalhoProgramador() {
-
+    console.log("Voce agora é um porgramador");
+    console.log("E recebe R$200,00 por dia de trabalho ");
+    status.dinheiro += 200
 }
 
 function dormirATarde() {
